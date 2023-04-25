@@ -7,6 +7,8 @@ class Solution {
 public:
     int max_profit=0;
     int maxProfit(vector<int>& prices) {
+      ios_base::sync_with_stdio(false);
+              cin.tie(nullptr);
          max_profit=0;
         bool iscansell =false;
         int sell_value=INT32_MAX;;

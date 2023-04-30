@@ -29,3 +29,32 @@ sheet1 leetcode problem
 - https://leetcode.com/problems/longest-common-prefix/
 - https://leetcode.com/problems/add-binary/
 - https://leetcode.com/problems/add-strings/
+
+
+
+
+
+sheet2
+
+
+
+    abc_swap
+    
+    ac_or_wc
+    
+    again_twinty_five
+    
+    calculation_function
+    
+    children_and_candies
+    
+    stones_on_tables   
+              
+     Helpful Maths
+     	AtCoder abc198_b 	Palindrome with leading zeros
+     	CodeForces 1473A 	Replacing Elements
+    	AtCoder abc220_c 	Long Sequence
+           CodeForces 225A 	Dice Tower
+    	CodeForces 1360B 	Honest Coach
+    https://leetcode.com/problems/can-place-flowers/
+    https://leetcode.com/problems/maximum-product-of-three-numbers/

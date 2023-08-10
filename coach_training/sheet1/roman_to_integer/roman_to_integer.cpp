@@ -60,17 +60,53 @@ cout<<"romanToInt: "<<sum<<endl;
 
 
 /*
-No need for sort sum all numbers and subtract the each value form the total 
-for eg  0 + 1 + 2 + 3 + 4 + 5 +6 +7 +  +9 = 15 = 
-
 class Solution {
 public:
-    int missingNumber(vector<int>& nums) {
-        long long total = (nums.size()*(nums.size() + 1))/2;
-        long long sum = 0;
-        for(int x : nums)
-            sum += x;
-        return total - sum;
+    int romanToInt(string s) {
+        int ans = 0;
+        for(int i = s.size() - 1; i >= 0; i--){
+            int firstVal = 0;
+            int secondVal = 0;
+            if(s[i] == 'I'){
+                firstVal = 1;
+            }else if(s[i] == 'V'){
+                firstVal = 5;
+            }else if(s[i] == 'X'){
+                firstVal = 10;
+            }else if(s[i] == 'L'){
+                firstVal = 50;
+            }else if(s[i] == 'C'){
+                firstVal = 100;
+            }else if(s[i] == 'D'){
+                firstVal = 500;
+            }else if(s[i] == 'M'){
+                firstVal = 1000;
+            }
+            if(i >= 1){
+                if(s[i-1] == 'I'){
+                secondVal = 1;
+                }else if(s[i-1] == 'V'){
+                    secondVal = 5;
+                }else if(s[i-1] == 'X'){
+                    secondVal = 10;
+                }else if(s[i-1] == 'L'){
+                    secondVal = 50;
+                }else if(s[i-1] == 'C'){
+                    secondVal = 100;
+                }else if(s[i-1] == 'D'){
+                    secondVal = 500;
+                }else if(s[i-1] == 'M'){
+                    secondVal = 1000;
+                }
+            }
+            if(firstVal > secondVal){
+                ans += (firstVal - secondVal);
+                i--;
+            }else{
+                ans += firstVal;
+            }
+        }
+        return ans;
     }
 };
 

@@ -16,7 +16,7 @@ int main(){
 
 
 Solution s;
-vector<string>str =["flower","flow","flight"];
+vector<string>str ={"flower","flow","flight"};
 string sum=0;
 sum=s.longestCommonPrefix(str);
 cout<<"longestCommonPrefix: "<<sum<<endl;

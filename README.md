@@ -2,6 +2,10 @@
 
 
 
+
+
+Level one porblems 
+
 vjudge problems
 
 1. Simple Array Sum [[here](https://vjudge.net/problem/HackerRank-simple-array-sum)]
@@ -58,3 +62,19 @@ sheet2
     	CodeForces 1360B 	Honest Coach
     https://leetcode.com/problems/can-place-flowers/
     https://leetcode.com/problems/maximum-product-of-three-numbers/
+
+
+
+
+
+Level Two 
+
+
+
+1. Greedy Technique
+
+
+
+
+
+​	2. Backtrack and recursion
